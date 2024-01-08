@@ -140,6 +140,7 @@ header{
     height: 360px;
     margin: auto 120px;
     gap: 100px;
+    margin-top: 40px;
 }
 .best-text h6{
     font-size: 16px;
@@ -147,10 +148,16 @@ header{
     font-weight: 500;
     text-align: left;
 }
-.best-text h1, .img-24 h1{
+.best-text h1{
     font-size: 38px;
     color: #070211;
     font-weight: 800;
+}
+.img-24 h1{
+    font-size: 38px;
+    color: #F00;
+    font-weight: 800;
+    margin-left: 20px;
 }
 .best-text p{
     color: rgba(7, 2, 17, 0.60);
@@ -159,6 +166,65 @@ header{
     width: 90%;
     text-align: left;
 }
+.seal-section{
+    width: 900px;
+    height: 620px;
+    margin: auto 120px;
+    background-color: #FFF;
+    margin-top: 40px;
+}
+.seal-text h6{
+    font-size: 16px;
+    color: #070211;
+    font-weight: 500;
+    text-align: center;
+}
+.seal-text h1{
+    font-size: 38px;
+    color: #070211;
+    font-weight: 800;
+    text-align: center;
+}
+.seal-text p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 12px;
+    font-weight: 400;
+    width: 50%;
+    text-align: center;
+    margin-left: 26%;
+}
+.seal-section .seal-imgs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 120px;
+    position: relative;
+}
+.seal-imgs img{
+    width: 80%;
+}
+#img2{
+    padding-left: 210px;
+    width: 69%;
+    padding-bottom: 240px;
+    border-radius: 12px;
+}
+
+.seal-back{
+    width: 900px;
+    height: 80px;
+    background-image: url(resources/Rectangle\ 2.png)
+    ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    padding-top: 46%;
+}
+.seal-section span{
+   color: #F00;;
+}
+
 .img-24 p{
     color: rgba(7, 2, 17, 0.60);
     font-size: 12px;
