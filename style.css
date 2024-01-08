@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: url(resources/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: auto 120px;
+    height: 600px;
+    border-radius: 15px;
+}
+.text {
+    text-align: center;
+    padding-top: 150px;
+}
+.text p{
+    font-size: 32px;
+    color: #FFF;
+    font-weight: 400;
+}
+.text h1{
+    font-size: 74px;
+    color: #FFF;
+    font-weight: 1000;
+    width: 600px;
+    text-align: center;
+    display: inline-block;
+    padding-top: 30px;
+}
+.off{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.off h1{
+    color:#F00;
+    font-size: 76px;
+    font-weight: 800;
+}
+.off h6{
+    color:#F00;
+    font-size: 22px;
+    font-weight: 500;
+}
+.off{
+    color: #070211;
+    font-size: 46px;
+    font-weight: 600;
+}
+.off img{
+    width: 540px;
+    height: fit-content;
+
+}
+.party{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 900px;
+    height: auto;
+    margin: auto 120px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: #FFF;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(resources/Vectorrr.png);
+    border-radius: 15px;
+    padding-top: 30px;
+}
+.party img{
+    width: 250px;
+    height: 300px;
+    margin: 40px 60px;
+}
+.party .party-text{
+    margin: 50px 80px;
+}
+.party h1{
+    font-size:52px;
+    color: #FFF;
+    font-weight: 800;
+}
+.party p{
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    width: 400px;
+}
+.party button ,a{
+    font-size: 22px;
+    padding: 5px;
+    color: #f8e1e1;
+    background-color: #555;
+    border: none;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.join{
+    width: 900px;
+    height: 260px;
+    margin: auto 120px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    text-align: center;
+    padding-top: 60px;
+}
+.join p{
+    font-size:28px ;
+    color: #070211;
+    font-weight: 600;
+    line-height: 40px;
+}
+.join p span{
+    color: #F00;
+}
+#btn{
+   border: none;
+   margin-top: 40px;
+}
+#btn a{
+    font-size: 22px;
+    padding: 8px;
+    color: #f8e1e1;
+    background-color: #F00;
+    border: none;
+    text-decoration: none;
+    border-radius: 8px;
+}
+#btn a:hover{
+    background-color: #070211;
+    color: #fff;
+    transition: all 0.5s ease-in;
+}
+.best{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+    height: 360px;
+    margin: auto 120px;
+    gap: 100px;
+}
+.best-text h6{
+    font-size: 16px;
+    color: #F00;
+    font-weight: 500;
+    text-align: left;
+}
+.best-text h1, .img-24 h1{
+    font-size: 38px;
+    color: #070211;
+    font-weight: 800;
+}
+.best-text p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 12px;
+    font-weight: 400;
+    width: 90%;
+    text-align: left;
+}
+.img-24 p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 12px;
+    font-weight: 400;
+    width: 120%;
+}
+
+.ellips{
+    border: 16px solid #F00;
+    border-radius: 50%;
+}
+.ellips img{
+    width: 300px;
+    height: 300px;
+}
+.portfolio{
+    width: 900px;
+    height: auto;
+    margin: auto 120px;
+    padding-top: 80px;
+    background-color: #FFF;
+}
+.portfolio-item img{
+    width: 260px;
+    height: auto;
+}
+.portfolio h1{
+    font-size: 38px;
+    color: #070211;
+    font-weight: 800;
+}
+.portfolio h6{
+    font-size: 16px;
+    color: #F00;
+    font-weight: 500;
+}
+.portfolio p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 12px;
+    font-weight: 400;
+    width: 50%;
+    text-align: left;
+}
+.portfolio-item .item:hover{
+    box-shadow: 4px 4px 4px #555;
+    border: none;
+    transition: all 0.4s ease-in;
+}
+.portfolio-item div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 8px auto;
+}
+.message{
+    width: 900px;
+    height: 400px;
+    margin: auto 120px;
+    margin-top: 80px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+.message h1,p{
+    text-align: center;
+}
+.message h1{
+    font-size: 38px;
+    color: #070211;
+    font-weight: 800;
+}
+.message p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 12px;
+    font-weight: 400;
+    width: 50%;
+    margin-left: 225px;
+}
+.message img{
+    width: 120px;
+    height: 120px;
+    margin-left: 400px;
+    margin-top: 40px;
+}
+.message .input{
+    margin-left: 260px;
+}
+.message input{
+    font-size: 18px;
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+}
+footer{
+    height: 460px;
+    background-color: #070211;
+    color: #FFF;
+    margin-top: 80px;
+}
+footer .first-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+footer .icon img{
+    width: 5%;
+}
+.icon{
+    margin-left: 40%;
+    margin-top: 20px;
+}
+.icon a{
+    text-decoration: none;
+    border: none;
+    background-color: #070211;
+    color: #070211;
+}
+footer .footer-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 120px;
+    padding-top: 100px;
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact-icon2 p{
+    padding-top: 25px;
+    padding-left: 8px;
+    font-size: 18px;
+}
+.contact-icon{
+    padding-top: 28px;
+}
+.footer-text p{
+    margin-left: 100px;
+}
+.text-one{
+    padding-top: 60px;
+}
